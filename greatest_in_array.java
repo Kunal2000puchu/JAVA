@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class greatest_in_array {
     public static void main(String[] args){
         int n, max;
-        Scanner s = new Scanner(System.In);
+        Scanner s = new Scanner(System.in);
         System.out.print("Enter the number of elements in the array:");
         n = s.nextInt();
         int a[] = new int[n];
